@@ -1,0 +1,56 @@
+* {
+    background-color: #222;
+    color: azure;
+    scrollbar-width: 1px;
+    font-family: cursive;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    margin: 10% auto;
+    max-height: 50%;
+    max-width: 80%;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    transition: .2s;
+}
+
+h1:hover {
+    text-align: center;
+    margin: 10px;
+    color: coral;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.margin {
+    background-color: #252525;
+    border: 1px solid coral;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 0;
+}
+
+p {
+    font-size: 38px;
+    color: aliceblue;
+    border: 5px solid #9bfdfd00;
+    border-radius: 8px;
+    margin: 0;
+    transition: .2s;
+}
+
+p:hover {
+    color:coral;
+    border: 5px solid #9bfdfd96;
+    border-radius: 8px;
+} 
